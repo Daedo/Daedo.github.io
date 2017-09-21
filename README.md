@@ -1,3 +1,2 @@
 # Daedo.github.io
-My personal website on Github.
-First Test.
+The entry website on Github.io/Daedo.

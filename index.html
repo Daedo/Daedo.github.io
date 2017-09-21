@@ -1,1 +1,110 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=latin" rel="stylesheet">
+
+<style type="text/css">
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
+
+html, body, #tbl_wrap {
+  height: 100%; width: 100%; padding: 0; margin: 0;
+}
+
+#td_wrap{
+  vertical-align: middle;
+  text-align: center;
+}
+#navi, #navi ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+#navi li {
+    width:128px;
+}
+#navi li ul {
+    display:none;
+}
+#navi li:hover ul {
+    display:block;
+    position: absolute;
+}
+#navcontainer {
+  height:16px; position:relative;
+}
+#navi {
+  position:absolute;
+}
+
+body {
+    background-color: DimGrey;
+    font-family: 'open sans',arial,sans-serif;
+}
+
+h1 {
+  color:white;
+}
+
+#navi li {
+  border:none;
+  margin:0 32px 0 0;
+}
+
+#navi ul li {
+  border:1px solid #000; margin:0;
+}
+
+#navi a {
+  font-weight:bold;
+  text-align:center;
+  display:block;
+  padding:0.1em;
+  color:black;
+
+}
+
+#navi a:link {
+  color:black;
+  background:whitesmoke;
+  text-decoration:underline;
+}
+
+#navi ul a:hover {
+  color:black;
+  background:Silver;
+  text-decoration:none;
+}
+
+<!--[if lte IE 6]>
+	  <style type="text/css" media="screen">#navi { behavior:url("csshover.htc"); }</style>
+<![endif]-->
+</style>
+<title>Welcome to Github.io/Daedo</title>
+</head>
+
+<body>
+<table id="tbl_wrap"><tbody><tr><td id="td_wrap">
+
+<h1>Github.io/Daedo</h1>
+
+<div class="navcontainer" style="display:flex;justify-content:center;align-items:center;">
+    <ul id="navi">
+      <li><a>Projects</a>
+        <ul>
+          <li><a href="https://github.com/Daedo/PAW/wiki">PAW</a></li>
+        </ul>
+      </li>
+    </ul>
+<div/>
+</td></tr></tbody></table>
+
+
+</body>
+</html>
