@@ -1,2 +1,2 @@
-# Daedo.github.io
-The entry website on Github.io/Daedo.
+# daedo.github.io
+The entry website on daedo.github.io.
